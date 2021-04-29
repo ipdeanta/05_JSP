@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+body {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: 0.3em;
+  word-spacing: 1.0em;
+  color: #B72304;
+}
+
+form {
+	width: 60%;
+	margin: 0px auto;
+}
+
+fieldset {
+  margin: 1em auto;
+  border: 3px solid darkblue;
+  border-radius: 24px;
+  text-align: left;
+  width: 350px;
+  margin:  0px auto;
+  /*box-shadow: 2px 2px 0px 0px darkblue;*/
+  overflow: hidden;
+}
+
+legend {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: orange;
+  text-transform: uppercase;
+}
+
+div {
+  margin: .4em 0;
+}
+
+div label {
+  width: 25%;
+  float: left;
+  font-weight: bold;
+}
+
+div #button-login {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.center {
+	text-align: center;
+}
+
+.footerText {
+	font-size: .5em;
+	font-family: Calibri, Arial, sans-serif;
+}
+
+.fontCalibri { 
+  font-family: Calibri,Optima,Segoe,Segoe UI,Candara,Arial,sans-serif; 
+}
+
+a.button {
+	font: bold 11px Arial;
+    text-decoration: none;
+  	background-color: #EEEEEE;
+  	color: #333333;
+  	padding: 2px 6px 2px 6px;
+ 	 border-top: 1px solid #CCCCCC;
+  	border-right: 1px solid #333333;
+  	border-bottom: 1px solid #333333;
+  	border-left: 1px solid #CCCCCC;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Login page</title>
+		<link rel="stylesheet" type="text/css" href="css/app_styles.css" media="screen">	
+	</head>
+	<body>
+		<!--<form action="Login" method="post">  -->
+		<form id="loginForm" action="LoginController" method="post" class="center">
+			<fieldset class="fontCalibri">
+				<legend>Datos de acceso</legend>	
+				<div>
+					<label for="nombre">Nombre</label>
+					<input type="text" name="name" id="nombre" />
+				</div>
+				<div>
+					<label for="password">Password</label>
+					<input type="password" name="password" id="password" />
+				</div>
+				<div class="center">
+					<input type="submit" value="Login" id="button-login" />
+				</div>
+			</fieldset>
+		</form>
+	</body>
+</html>
