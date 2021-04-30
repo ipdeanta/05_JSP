@@ -41,6 +41,9 @@
 		
 		<h3>Bienvenido, ${sessionScope.clientName}.</h3>
 		<div><%=recomendMouse ? "Tenemos las siguientes recomendaciones de mouses para ti <a href=\"https:\\www.google.es\"class=\"button\">aquí</a>." : ""%></div>
+		<form id="logout" action="Logout" method="post">
+			<input type="submit" value="Log out" id="button-logout" />
+		</form>
 		<br><br>
 		<h2>Listado de productos: </h2>
 		<form action="" method="post">

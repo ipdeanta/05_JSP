@@ -45,8 +45,8 @@ public class PaymentController extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// Sin lógica para confirmar pago...
 		boolean paymentAccepted = true;
-		if (paymentAccepted) {			
-			HttpSession session = request.getSession(true);
+		if (paymentAccepted) {
+			HttpSession session = request.getSession(false);
 			session.removeAttribute("cartList");
 			request.getRequestDispatcher("PaymentConfirmed.jsp").forward(request, response);
 		} else {
